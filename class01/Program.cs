@@ -6,26 +6,30 @@ namespace class01
     {
         static void Main(string[] args) // Main 은 프로그램 실행 진입점, main 함수 안에서 실행해야 프로그램이 돌아감 
         {
-            Console.WriteLine("Hello World!"+"This is me!");//문자열 출력함수, 쌍따옴표 안에 반드시.이어서 출력하고 싶은 문자가 있다면 +로 연결
-            Console.WriteLine("유니티를 배우고 싶어요.");
-            Console.Write("안녕");//line 이 없는 write는 줄바꿈(개행)을 안함.
-            Console.Write(100);
+            //값 타입: 변수 선언과 동시에 값 할당할 수 있고 스택 메모리에 생성됨. 
 
-            //값 타입 
-            bool check=true; //1 byte
-            byte bit = 1; //1 byte
-            char alphabet = 'A'; //1 byte 
-            short data = 10; //2 byte
-            ushort uData = 22; //2 byte 양수값만 표현할 수 있는 자료형
-            int integer = 300; //4 byte
-            uint uInteger = 200; //4 byte 양수값만 표현할 수 있는 자료형
-            long signal = 15; //4 byte
-           
-            float sign = 16.5f; // 4 byte
-            double count = 176.8; // 8 byte
-            //구조체, 열거형
-            decimal value = 3058; //16 byte
-                                
+            //참조 타입
+            //int 자료형을 가진 변수를 한공간에 방 형태로 5개 저장하는 구조. 
+            //new 키워드 사용해서 객체 초기화 한 후 힙에 할당된 메모리를 스택에서 참조해 사용하는 타입. 
+
+            // int array[5];  => 에러
+            string name = "BBK";
+            int[] array = new int[5];
+
+            array[0] = 10;
+            array[1] = 20;
+            array[2] = 30;
+            array[3] = 40;
+            array[4] = 50;
+
+            Console.WriteLine(name);
+            Console.WriteLine(array[0]);
+            Console.WriteLine(array[1]);
+            Console.WriteLine(array[2]);
+            Console.WriteLine(array[3]);
+            Console.WriteLine(array[4]);
+
+
         }
     }
 }
