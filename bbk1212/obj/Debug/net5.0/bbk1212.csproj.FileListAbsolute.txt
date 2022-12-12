@@ -1,0 +1,16 @@
+C:\Users\Administrator\Documents\csharpclass\bbk1212\bin\Debug\net5.0\bbk1212.exe
+C:\Users\Administrator\Documents\csharpclass\bbk1212\bin\Debug\net5.0\bbk1212.deps.json
+C:\Users\Administrator\Documents\csharpclass\bbk1212\bin\Debug\net5.0\bbk1212.runtimeconfig.json
+C:\Users\Administrator\Documents\csharpclass\bbk1212\bin\Debug\net5.0\bbk1212.runtimeconfig.dev.json
+C:\Users\Administrator\Documents\csharpclass\bbk1212\bin\Debug\net5.0\bbk1212.dll
+C:\Users\Administrator\Documents\csharpclass\bbk1212\bin\Debug\net5.0\ref\bbk1212.dll
+C:\Users\Administrator\Documents\csharpclass\bbk1212\bin\Debug\net5.0\bbk1212.pdb
+C:\Users\Administrator\Documents\csharpclass\bbk1212\obj\Debug\net5.0\bbk1212.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\csharpclass\bbk1212\obj\Debug\net5.0\bbk1212.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Documents\csharpclass\bbk1212\obj\Debug\net5.0\bbk1212.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\csharpclass\bbk1212\obj\Debug\net5.0\bbk1212.AssemblyInfo.cs
+C:\Users\Administrator\Documents\csharpclass\bbk1212\obj\Debug\net5.0\bbk1212.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\csharpclass\bbk1212\obj\Debug\net5.0\bbk1212.dll
+C:\Users\Administrator\Documents\csharpclass\bbk1212\obj\Debug\net5.0\ref\bbk1212.dll
+C:\Users\Administrator\Documents\csharpclass\bbk1212\obj\Debug\net5.0\bbk1212.pdb
+C:\Users\Administrator\Documents\csharpclass\bbk1212\obj\Debug\net5.0\bbk1212.genruntimeconfig.cache
