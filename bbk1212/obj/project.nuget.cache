@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "ni/gF4Smbwfef12C/CVb1Z8oX10SwPhVS/pytWQdY0+oiX4Ipo1JZuiBi+XhSI6kplCfrzBa/vRme7alnNK5dg==",
+  "dgSpecHash": "E/Yl0VvY9K2JIBw5N/d1YQald5LUYDon1ynrSN6G0Xedy6BgwvkpO3cMtbuoshRFcaHnf0OH/3t8DbxtIgKx1g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Administrator\\Documents\\csharpclass\\bbk1212\\bbk1212.csproj",
+  "projectFilePath": "C:\\Users\\BK\\Documents\\GitHub\\csharpclass\\bbk1212\\bbk1212.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512"
+    "C:\\Users\\BK\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512",
+    "C:\\Users\\BK\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\BK\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\BK\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

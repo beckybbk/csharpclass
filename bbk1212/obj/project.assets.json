@@ -8,24 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Administrator\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\BK\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\Documents\\csharpclass\\bbk1212\\bbk1212.csproj",
+      "projectUniqueName": "C:\\Users\\BK\\Documents\\GitHub\\csharpclass\\bbk1212\\bbk1212.csproj",
       "projectName": "bbk1212",
-      "projectPath": "C:\\Users\\Administrator\\Documents\\csharpclass\\bbk1212\\bbk1212.csproj",
-      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\Documents\\csharpclass\\bbk1212\\obj\\",
+      "projectPath": "C:\\Users\\BK\\Documents\\GitHub\\csharpclass\\bbk1212\\bbk1212.csproj",
+      "packagesPath": "C:\\Users\\BK\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\BK\\Documents\\GitHub\\csharpclass\\bbk1212\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\BK\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -62,8 +57,20 @@
         "warn": true,
         "downloadDependencies": [
           {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
             "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[5.0.13, 5.0.13]"
+            "version": "[5.0.17, 5.0.17]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
           }
         ],
         "frameworkReferences": {
@@ -71,7 +78,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
       }
     }
   }
