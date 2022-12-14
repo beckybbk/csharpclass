@@ -1,0 +1,16 @@
+C:\Users\Administrator\Documents\csharpclass\bbk1212\lectureResources\bin\Debug\net5.0\lectureResources.exe
+C:\Users\Administrator\Documents\csharpclass\bbk1212\lectureResources\bin\Debug\net5.0\lectureResources.deps.json
+C:\Users\Administrator\Documents\csharpclass\bbk1212\lectureResources\bin\Debug\net5.0\lectureResources.runtimeconfig.json
+C:\Users\Administrator\Documents\csharpclass\bbk1212\lectureResources\bin\Debug\net5.0\lectureResources.runtimeconfig.dev.json
+C:\Users\Administrator\Documents\csharpclass\bbk1212\lectureResources\bin\Debug\net5.0\lectureResources.dll
+C:\Users\Administrator\Documents\csharpclass\bbk1212\lectureResources\bin\Debug\net5.0\ref\lectureResources.dll
+C:\Users\Administrator\Documents\csharpclass\bbk1212\lectureResources\bin\Debug\net5.0\lectureResources.pdb
+C:\Users\Administrator\Documents\csharpclass\bbk1212\lectureResources\obj\Debug\net5.0\lectureResources.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\csharpclass\bbk1212\lectureResources\obj\Debug\net5.0\lectureResources.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Documents\csharpclass\bbk1212\lectureResources\obj\Debug\net5.0\lectureResources.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\csharpclass\bbk1212\lectureResources\obj\Debug\net5.0\lectureResources.AssemblyInfo.cs
+C:\Users\Administrator\Documents\csharpclass\bbk1212\lectureResources\obj\Debug\net5.0\lectureResources.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\csharpclass\bbk1212\lectureResources\obj\Debug\net5.0\lectureResources.dll
+C:\Users\Administrator\Documents\csharpclass\bbk1212\lectureResources\obj\Debug\net5.0\ref\lectureResources.dll
+C:\Users\Administrator\Documents\csharpclass\bbk1212\lectureResources\obj\Debug\net5.0\lectureResources.pdb
+C:\Users\Administrator\Documents\csharpclass\bbk1212\lectureResources\obj\Debug\net5.0\lectureResources.genruntimeconfig.cache
