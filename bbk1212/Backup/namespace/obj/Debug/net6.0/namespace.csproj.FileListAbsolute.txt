@@ -1,0 +1,15 @@
+C:\Users\Administrator\Documents\csharpclass\bbk1212\Backup\namespace\bin\Debug\net6.0\namespace.exe
+C:\Users\Administrator\Documents\csharpclass\bbk1212\Backup\namespace\bin\Debug\net6.0\namespace.deps.json
+C:\Users\Administrator\Documents\csharpclass\bbk1212\Backup\namespace\bin\Debug\net6.0\namespace.runtimeconfig.json
+C:\Users\Administrator\Documents\csharpclass\bbk1212\Backup\namespace\bin\Debug\net6.0\namespace.dll
+C:\Users\Administrator\Documents\csharpclass\bbk1212\Backup\namespace\bin\Debug\net6.0\ref\namespace.dll
+C:\Users\Administrator\Documents\csharpclass\bbk1212\Backup\namespace\bin\Debug\net6.0\namespace.pdb
+C:\Users\Administrator\Documents\csharpclass\bbk1212\Backup\namespace\obj\Debug\net6.0\namespace.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\csharpclass\bbk1212\Backup\namespace\obj\Debug\net6.0\namespace.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Documents\csharpclass\bbk1212\Backup\namespace\obj\Debug\net6.0\namespace.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\csharpclass\bbk1212\Backup\namespace\obj\Debug\net6.0\namespace.AssemblyInfo.cs
+C:\Users\Administrator\Documents\csharpclass\bbk1212\Backup\namespace\obj\Debug\net6.0\namespace.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\csharpclass\bbk1212\Backup\namespace\obj\Debug\net6.0\namespace.dll
+C:\Users\Administrator\Documents\csharpclass\bbk1212\Backup\namespace\obj\Debug\net6.0\ref\namespace.dll
+C:\Users\Administrator\Documents\csharpclass\bbk1212\Backup\namespace\obj\Debug\net6.0\namespace.pdb
+C:\Users\Administrator\Documents\csharpclass\bbk1212\Backup\namespace\obj\Debug\net6.0\namespace.genruntimeconfig.cache
