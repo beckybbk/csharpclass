@@ -30,3 +30,19 @@ C:\Users\BK\Source\Repos\beckybbk\csharpclass\class01\obj\Debug\net5.0\refint\cl
 C:\Users\BK\Source\Repos\beckybbk\csharpclass\class01\obj\Debug\net5.0\class01.pdb
 C:\Users\BK\Source\Repos\beckybbk\csharpclass\class01\obj\Debug\net5.0\class01.genruntimeconfig.cache
 C:\Users\BK\Source\Repos\beckybbk\csharpclass\class01\obj\Debug\net5.0\ref\class01.dll
+C:\Users\Administrator\Desktop\새 폴더 (2)\class01\bin\Debug\net5.0\class01.exe
+C:\Users\Administrator\Desktop\새 폴더 (2)\class01\bin\Debug\net5.0\class01.deps.json
+C:\Users\Administrator\Desktop\새 폴더 (2)\class01\bin\Debug\net5.0\class01.runtimeconfig.json
+C:\Users\Administrator\Desktop\새 폴더 (2)\class01\bin\Debug\net5.0\class01.runtimeconfig.dev.json
+C:\Users\Administrator\Desktop\새 폴더 (2)\class01\bin\Debug\net5.0\class01.dll
+C:\Users\Administrator\Desktop\새 폴더 (2)\class01\bin\Debug\net5.0\ref\class01.dll
+C:\Users\Administrator\Desktop\새 폴더 (2)\class01\bin\Debug\net5.0\class01.pdb
+C:\Users\Administrator\Desktop\새 폴더 (2)\class01\obj\Debug\net5.0\class01.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\새 폴더 (2)\class01\obj\Debug\net5.0\class01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\새 폴더 (2)\class01\obj\Debug\net5.0\class01.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\새 폴더 (2)\class01\obj\Debug\net5.0\class01.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\새 폴더 (2)\class01\obj\Debug\net5.0\class01.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\새 폴더 (2)\class01\obj\Debug\net5.0\class01.dll
+C:\Users\Administrator\Desktop\새 폴더 (2)\class01\obj\Debug\net5.0\ref\class01.dll
+C:\Users\Administrator\Desktop\새 폴더 (2)\class01\obj\Debug\net5.0\class01.pdb
+C:\Users\Administrator\Desktop\새 폴더 (2)\class01\obj\Debug\net5.0\class01.genruntimeconfig.cache

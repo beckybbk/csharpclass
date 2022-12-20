@@ -5,7 +5,17 @@
       "ProjectGuid": "ec219d03-e9ab-4f8d-a855-c1da3d69e5d6",
       "DisplayName": "class01",
       "ColorIndex": 0
+    },
+    "276c8e8c-5e03-47e5-95fa-6c76f20a9829": {
+      "ProjectGuid": "276c8e8c-5e03-47e5-95fa-6c76f20a9829",
+      "DisplayName": "property01",
+      "ColorIndex": 1
+    },
+    "c5bf3388-2691-4722-a398-dd83c03ec2c2": {
+      "ProjectGuid": "c5bf3388-2691-4722-a398-dd83c03ec2c2",
+      "DisplayName": "construct01",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 3
 }

@@ -2,34 +2,96 @@
 
 namespace class01
 {
+    // 인터페이스 : 클래스들이 구현해야 하는 동작을 지정하는 용도로 사용되는 추상 자료형. 
+
+    //네이밍 컨벤션 : 이름을 규칙적으로 맞춰줌.
+    interface IMonitor // interface는 I를 넣어 이름을 만듦. 메소드를 선언만 할 수 있음. 멤버 변수를 가질 수 없음. but, 프로퍼티는 가질 수 있음.
+    {
+        // int value;=> 에러뜸.
+        // int Damage { set; get; } //but, 프로퍼티는 가질 수 있음.
+
+       // 인터페이스의 기본 접근 지정자는 public으로 설정됨.
+        void Power();
+    }
+
+    interface IMouse 
+    {
+        void Click();
+    }
+    //c샵은 다중상속이 지원되지 않음.
+    class Computer : IMonitor, IMouse
+    {
+    
+        public void Click()
+        {
+            Console.WriteLine("마우스 클릭");
+        }
+
+        public void Power()
+        {
+            Console.WriteLine("모니터 전원 On");
+        }
+    }
+
+    interface IObject
+    {
+        void HealthManager();
+    }
+
+    class Player : IObject
+    {
+        public int hp;
+
+        public void HealthManager()
+        {
+            hp -= 50;
+            Console.WriteLine("Player의 체력이 감소했음. 현재 hp: " + hp);
+        }
+    }
+
+    class Monster : IObject
+    {
+        public int hp;
+        public void HealthManager()
+        {
+            hp -= 25;
+            Console.WriteLine("Monster의 체력이 감소했음. 현재 hp: "+ hp);
+        }
+    }
+
+    class Damage // <- 데미지를 처리하는 클래스.
+    {
+        public void DecreaseHP(IObject iobject)
+        {
+            iobject.HealthManager();
+        }
+    }
+
     internal class Program
     {
-        static void Main(string[] args) // Main 은 프로그램 실행 진입점, main 함수 안에서 실행해야 프로그램이 돌아감 
+        static void Main(string[] args)
         {
-            //값 타입: 변수 선언과 동시에 값 할당할 수 있고 스택 메모리에 생성됨. 
+            #region 인터페이스
+            Computer computer = new Computer();
+            computer.Power();
+            computer.Click();
 
-            //참조 타입
-            //int 자료형을 가진 변수를 한공간에 방 형태로 5개 저장하는 구조. 
-            //new 키워드 사용해서 객체 초기화 한 후 힙에 할당된 메모리를 스택에서 참조해 사용하는 타입. 
+            //IMouse mouse = new IMouse();   => 에러발생: 인터페이스는 객체로 인스턴스 할 수 없음.단, 참조용 변수로는 사용가능.
+            //IMouse lg = new Computer();
+            //lg.Click();
+            #endregion
 
-            // int array[5];  => 에러
-            string name = "BBK";
-            int[] array = new int[5];
+            Monster goblin = new Monster();    // 고블린이란 몬스터가 생김 
+            goblin.hp = 100;                   // 고블린 체력 100 설정
 
-            array[0] = 10;
-            array[1] = 20;
-            array[2] = 30;
-            array[3] = 40;
-            array[4] = 50;
+            Monster slime = new Monster();     // 슬라임 몬스터 생성
 
-            Console.WriteLine(name);
-            Console.WriteLine(array[0]);
-            Console.WriteLine(array[1]);
-            Console.WriteLine(array[2]);
-            Console.WriteLine(array[3]);
-            Console.WriteLine(array[4]);
+            Player player = new Player();      // 플레이어 생성
+            player.hp = 100;                   // 플레이어 체력 100 설정
 
-
+            Damage damage = new Damage();
+            damage.DecreaseHP(goblin);
+            damage.DecreaseHP(player);
         }
     }
 }
