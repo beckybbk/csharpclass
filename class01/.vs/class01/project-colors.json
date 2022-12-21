@@ -15,7 +15,12 @@
       "ProjectGuid": "c5bf3388-2691-4722-a398-dd83c03ec2c2",
       "DisplayName": "construct01",
       "ColorIndex": 2
+    },
+    "1d3c5329-84b6-4f02-9c6b-050a41021ba0": {
+      "ProjectGuid": "1d3c5329-84b6-4f02-9c6b-050a41021ba0",
+      "DisplayName": "Override01",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 4
 }

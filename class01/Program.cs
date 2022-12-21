@@ -2,96 +2,92 @@
 
 namespace class01
 {
-    // 인터페이스 : 클래스들이 구현해야 하는 동작을 지정하는 용도로 사용되는 추상 자료형. 
-
-    //네이밍 컨벤션 : 이름을 규칙적으로 맞춰줌.
-    interface IMonitor // interface는 I를 넣어 이름을 만듦. 메소드를 선언만 할 수 있음. 멤버 변수를 가질 수 없음. but, 프로퍼티는 가질 수 있음.
+    class Watch
     {
-        // int value;=> 에러뜸.
-        // int Damage { set; get; } //but, 프로퍼티는 가질 수 있음.
+        // readonly : 런타임 시점에 결정되는 상수 (class 안에 만들어야). 초기화 하지 않아도 사용가능.
+        readonly int count=50;
 
-       // 인터페이스의 기본 접근 지정자는 public으로 설정됨.
-        void Power();
-    }
-
-    interface IMouse 
-    {
-        void Click();
-    }
-    //c샵은 다중상속이 지원되지 않음.
-    class Computer : IMonitor, IMouse
-    {
-    
-        public void Click()
+        public Watch() // 생성자 : 생성자에서 단 한번만 값을 초기화 할 수 있음.
         {
-            Console.WriteLine("마우스 클릭");
-        }
-
-        public void Power()
-        {
-            Console.WriteLine("모니터 전원 On");
+            count = 100;
+            Console.WriteLine("count의 값 : " + count);
         }
     }
 
-    interface IObject
-    {
-        void HealthManager();
-    }
+    //델리게이트 선언
+    //delegate [반환형] [델리게이트 이름] (매개변수)
+    delegate void Calculator(int x, int y);
 
-    class Player : IObject
-    {
-        public int hp;
+    // 델리게이트는 메소드의 반환형과 매개변수의 타입이 일치해야 사용가능.
 
-        public void HealthManager()
+    class Weapon
+    {
+        public void Stat(int x, int y)
         {
-            hp -= 50;
-            Console.WriteLine("Player의 체력이 감소했음. 현재 hp: " + hp);
+            int result = x + y;
+            Console.WriteLine("Stat 메소드의 값 : " + result);
+        }
+        public void Price(int x, int y)
+        {
+            int result = x - y;
+            Console.WriteLine("Price 메소드의 값 : " + result);
+        }
+
+        public void Damage(int x, int y)
+        {
+            int result = x * y;
+            Console.WriteLine("Damage 메소드의 값 : " + result);
         }
     }
-
-    class Monster : IObject
-    {
-        public int hp;
-        public void HealthManager()
-        {
-            hp -= 25;
-            Console.WriteLine("Monster의 체력이 감소했음. 현재 hp: "+ hp);
-        }
-    }
-
-    class Damage // <- 데미지를 처리하는 클래스.
-    {
-        public void DecreaseHP(IObject iobject)
-        {
-            iobject.HealthManager();
-        }
-    }
-
     internal class Program
     {
         static void Main(string[] args)
         {
-            #region 인터페이스
-            Computer computer = new Computer();
-            computer.Power();
-            computer.Click();
+            #region 상수 : 프로그램이 실행되는 동안 변하지 않는 값.
+            // const : 컴파일 시점에 결정되는 상수. 상수를 선언과 동시에 초기화 해주어야 함.
+            // const int value; => 에러
+            // const int data =10; 라고 입력했다가 20, 30 등으로 자꾸 바꾸면 재컴파일 한다. 
+            //const int value = 10;
 
-            //IMouse mouse = new IMouse();   => 에러발생: 인터페이스는 객체로 인스턴스 할 수 없음.단, 참조용 변수로는 사용가능.
-            //IMouse lg = new Computer();
-            //lg.Click();
+            //Console.WriteLine("value의 값 : "+value);
+            //Watch watch = new Watch();
             #endregion
 
-            Monster goblin = new Monster();    // 고블린이란 몬스터가 생김 
-            goblin.hp = 100;                   // 고블린 체력 100 설정
+            #region 델리게이트(대리자)
+            //델리게이트 : 대리자. 메소드를 대신해 호출하는 기법. (참조타입)
+            //Weapon weapon = new Weapon();
 
-            Monster slime = new Monster();     // 슬라임 몬스터 생성
+            //// 델리게이트 정의
+            //Calculator calculator;
 
-            Player player = new Player();      // 플레이어 생성
-            player.hp = 100;                   // 플레이어 체력 100 설정
+            //// 델리게이트 변수에 Stat의 주소를 저장.
+            //calculator = weapon.Stat;
 
-            Damage damage = new Damage();
-            damage.DecreaseHP(goblin);
-            damage.DecreaseHP(player);
+            //calculator(10,20);
+
+            //calculator= weapon.Price;
+            //calculator(20,5);
+
+            //calculator= weapon.Damage;
+            //calculator(5,10);
+
+            #endregion
+
+            //델리게이트체인: 하나의 델리게이트에 여러개의 메소드를 연결시키는 기법. (한번에 계산가능)
+            Weapon weapon = new Weapon();
+
+            Calculator calculator;
+            //델리게이트는 비어있는 상태에서 메소드를 추가할 수 없음. 먼저 등록시킨 뒤 추가. (+)
+            calculator = weapon.Stat;
+            calculator += weapon.Price;
+            calculator += weapon.Damage;
+
+            calculator(10, 20);
+
+            // 델리게이트에 등록된 메소드를 뺄때는 (-) 
+            calculator -= weapon.Price;
+            calculator(10, 20);
+
         }
     }
 }

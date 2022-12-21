@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "property01", "..\property01
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "construct01", "..\construct01\construct01.csproj", "{C5BF3388-2691-4722-A398-DD83C03EC2C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Override01", "..\Override01\Override01.csproj", "{1D3C5329-84B6-4F02-9C6B-050A41021BA0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Override01", "..\Override01\Override01.csproj", "{1D3C5329-84B6-4F02-9C6B-050A41021BA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "delegate_Chain01", "..\delegate_Chain01\delegate_Chain01.csproj", "{7DAA2A9D-79E3-481E-A3E5-F12035341FD0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{1D3C5329-84B6-4F02-9C6B-050A41021BA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D3C5329-84B6-4F02-9C6B-050A41021BA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D3C5329-84B6-4F02-9C6B-050A41021BA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DAA2A9D-79E3-481E-A3E5-F12035341FD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DAA2A9D-79E3-481E-A3E5-F12035341FD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DAA2A9D-79E3-481E-A3E5-F12035341FD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DAA2A9D-79E3-481E-A3E5-F12035341FD0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
