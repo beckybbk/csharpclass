@@ -2,92 +2,75 @@
 
 namespace class01
 {
-    class Watch
+    delegate void Delegate();
+
+    class IPhone
     {
-        // readonly : 런타임 시점에 결정되는 상수 (class 안에 만들어야). 초기화 하지 않아도 사용가능.
-        readonly int count=50;
+        public int price;
+        public int version;
 
-        public Watch() // 생성자 : 생성자에서 단 한번만 값을 초기화 할 수 있음.
+        //얕은복사
+        /*
+        public IPhone(int price, int version)
         {
-            count = 100;
-            Console.WriteLine("count의 값 : " + count);
+            this.price = price;
+            this.version = version; 
         }
-    }
+        */
 
-    //델리게이트 선언
-    //delegate [반환형] [델리게이트 이름] (매개변수)
-    delegate void Calculator(int x, int y);
+        // 깊은복사
 
-    // 델리게이트는 메소드의 반환형과 매개변수의 타입이 일치해야 사용가능.
-
-    class Weapon
-    {
-        public void Stat(int x, int y)
+        public IPhone DeepCopy()
         {
-            int result = x + y;
-            Console.WriteLine("Stat 메소드의 값 : " + result);
-        }
-        public void Price(int x, int y)
-        {
-            int result = x - y;
-            Console.WriteLine("Price 메소드의 값 : " + result);
-        }
+            IPhone newIPhone = new IPhone();
+            newIPhone.price = this.price;
+            newIPhone.version = this.version;
 
-        public void Damage(int x, int y)
-        {
-            int result = x * y;
-            Console.WriteLine("Damage 메소드의 값 : " + result);
+            return newIPhone;
         }
     }
     internal class Program
     {
         static void Main(string[] args)
         {
-            #region 상수 : 프로그램이 실행되는 동안 변하지 않는 값.
-            // const : 컴파일 시점에 결정되는 상수. 상수를 선언과 동시에 초기화 해주어야 함.
-            // const int value; => 에러
-            // const int data =10; 라고 입력했다가 20, 30 등으로 자꾸 바꾸면 재컴파일 한다. 
-            //const int value = 10;
+            #region 무명형식
+            // 무명형식 : 이름이 없는 데이터 형식. 임시변수(임시로 생성해 사용하고 더 이상 사용되지 않음) 가 필요할 때 사용하는 형식.
 
-            //Console.WriteLine("value의 값 : "+value);
-            //Watch watch = new Watch();
+            //var temp = new { age = 40, name = "KIM" };
+
+            //// temp.age = 30; => 에러, 무명형식으로 생성된 인스턴스는 읽기 전용(출력용)이기 때문에 값을 수정할 수 없음. 
+
+            //Console.WriteLine("temp의 age : " +temp.age + "temp의 name : " + temp.name);
             #endregion
 
-            #region 델리게이트(대리자)
-            //델리게이트 : 대리자. 메소드를 대신해 호출하는 기법. (참조타입)
-            //Weapon weapon = new Weapon();
+            #region 무명메소드
+            // 무명메소드 : 단순한 명령어 구문으로 구성된 메소드를 정의하지 않고 델리게이트를 사용해 1회용으로 사용하는 메소드. 
+            Delegate value;
 
-            //// 델리게이트 정의
-            //Calculator calculator;
+            value = () =>
+                    { Console.WriteLine("로그인을 실패하였음");};
 
-            //// 델리게이트 변수에 Stat의 주소를 저장.
-            //calculator = weapon.Stat;
-
-            //calculator(10,20);
-
-            //calculator= weapon.Price;
-            //calculator(20,5);
-
-            //calculator= weapon.Damage;
-            //calculator(5,10);
-
+            value();
             #endregion
 
-            //델리게이트체인: 하나의 델리게이트에 여러개의 메소드를 연결시키는 기법. (한번에 계산가능)
-            Weapon weapon = new Weapon();
+            // 얕은복사 : 객체를 복사할 때 주소값을 복사하여 같은 메모리를 가리키는 복사.
+            IPhone se1 = new IPhone();
+            se1.price = 20000;
+            se1.version = 1;
+            IPhone se2 = se1.DeepCopy();
 
-            Calculator calculator;
-            //델리게이트는 비어있는 상태에서 메소드를 추가할 수 없음. 먼저 등록시킨 뒤 추가. (+)
-            calculator = weapon.Stat;
-            calculator += weapon.Price;
-            calculator += weapon.Damage;
+            se2.version = 2;
+            se2.price = 100000;
 
-            calculator(10, 20);
+            Console.WriteLine("se1의 버젼: " + se1.version);
+            Console.WriteLine("se1의 가격: " + se1.price);
 
-            // 델리게이트에 등록된 메소드를 뺄때는 (-) 
-            calculator -= weapon.Price;
-            calculator(10, 20);
+            Console.WriteLine("se2의 버젼: " + se2.version);
+            Console.WriteLine("se2의 가격: " + se2.price);
 
+
+            // 깊은복사 : 객체를 복사할 때 참조값이 아닌, 인스턴스 자체를 새로 복사해 서로 다른 메모리를 생성하는 복사.
         }
     }
 }
+

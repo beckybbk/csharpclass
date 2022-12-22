@@ -20,7 +20,12 @@
       "ProjectGuid": "1d3c5329-84b6-4f02-9c6b-050a41021ba0",
       "DisplayName": "Override01",
       "ColorIndex": 3
+    },
+    "7daa2a9d-79e3-481e-a3e5-f12035341fd0": {
+      "ProjectGuid": "7daa2a9d-79e3-481e-a3e5-f12035341fd0",
+      "DisplayName": "delegate_Chain01",
+      "ColorIndex": 4
     }
   },
-  "NextColorIndex": 4
+  "NextColorIndex": 5
 }

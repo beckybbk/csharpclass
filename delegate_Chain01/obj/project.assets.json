@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\새 폴더 (2)\\delegate_Chain01\\delegate_Chain01.csproj",
-      "projectName": "delegate_Chain01",
-      "projectPath": "C:\\Users\\Administrator\\Desktop\\새 폴더 (2)\\delegate_Chain01\\delegate_Chain01.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\새 폴더 (2)\\delegate_Chain01\\interface01.csproj",
+      "projectName": "interface01",
+      "projectPath": "C:\\Users\\Administrator\\Desktop\\새 폴더 (2)\\delegate_Chain01\\interface01.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Administrator\\Desktop\\새 폴더 (2)\\delegate_Chain01\\obj\\",
       "projectStyle": "PackageReference",
