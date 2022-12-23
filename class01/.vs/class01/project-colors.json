@@ -23,9 +23,14 @@
     },
     "7daa2a9d-79e3-481e-a3e5-f12035341fd0": {
       "ProjectGuid": "7daa2a9d-79e3-481e-a3e5-f12035341fd0",
-      "DisplayName": "delegate_Chain01",
+      "DisplayName": "interface01",
       "ColorIndex": 4
+    },
+    "25e4e618-de54-4382-be4e-d58084fab9cf": {
+      "ProjectGuid": "25e4e618-de54-4382-be4e-d58084fab9cf",
+      "DisplayName": "Delegate01",
+      "ColorIndex": 5
     }
   },
-  "NextColorIndex": 5
+  "NextColorIndex": 6
 }

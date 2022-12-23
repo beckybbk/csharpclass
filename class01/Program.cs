@@ -2,75 +2,90 @@
 
 namespace class01
 {
-    delegate void Delegate();
-
-    class IPhone
+    // 추상클래스 선언 : abstract를 붙임. 
+    abstract class Equipment
     {
-        public int price;
-        public int version;
+        abstract public void Effect(); //가상함수로 암묵적 정의 된 것. 
 
-        //얕은복사
-        /*
-        public IPhone(int price, int version)
+        public void Durability(int value)
         {
-            this.price = price;
-            this.version = version; 
-        }
-        */
+            Console.WriteLine("내구도 : " + value);
 
-        // 깊은복사
-
-        public IPhone DeepCopy()
-        {
-            IPhone newIPhone = new IPhone();
-            newIPhone.price = this.price;
-            newIPhone.version = this.version;
-
-            return newIPhone;
         }
     }
-    internal class Program
-    {
-        static void Main(string[] args)
+
+        class Weapon : Equipment
         {
-            #region 무명형식
-            // 무명형식 : 이름이 없는 데이터 형식. 임시변수(임시로 생성해 사용하고 더 이상 사용되지 않음) 가 필요할 때 사용하는 형식.
+            public override void Effect()
+            {
+                Console.WriteLine("공격력 증가");
+            }
 
-            //var temp = new { age = 40, name = "KIM" };
+            new public void Durability(int value)
+            {
+                Console.WriteLine("무기 내구도 : " + value);
 
-            //// temp.age = 30; => 에러, 무명형식으로 생성된 인스턴스는 읽기 전용(출력용)이기 때문에 값을 수정할 수 없음. 
+            }
+        }
 
-            //Console.WriteLine("temp의 age : " +temp.age + "temp의 name : " + temp.name);
+        class Shield : Equipment
+        {
+            public override void Effect()
+            {
+                Console.WriteLine("방어력 증가");
+            }
+        }
+
+    delegate void CallBack();
+   internal class Program
+    {
+       static void Button(CallBack callback)
+        {
+            callback();
+        }
+
+        static void UserInterface()
+        {
+            Console.WriteLine("Character stat Window");
+        }
+       static void Main(string[] args)
+       {
+            #region 추상 클래스 : 하나 이상의 추상 메소드를 포함하고 있는 클래스. 
+            /*
+            Weapon weapon = new Weapon();
+            weapon.Durability(100);
+            weapon.Effect();
+
+            // 추상 클래스는 다중 상속이 안됨. (인터페이스는 되는데) 
+            Shield shield = new Shield();
+            shield.Effect();
+            */
             #endregion
 
-            #region 무명메소드
-            // 무명메소드 : 단순한 명령어 구문으로 구성된 메소드를 정의하지 않고 델리게이트를 사용해 1회용으로 사용하는 메소드. 
-            Delegate value;
+            //console 입력 
+            //string name;
 
-            value = () =>
-                    { Console.WriteLine("로그인을 실패하였음");};
+            //name = Console.ReadLine();
 
-            value();
-            #endregion
+            //Console.WriteLine("name : " + name);
 
-            // 얕은복사 : 객체를 복사할 때 주소값을 복사하여 같은 메모리를 가리키는 복사.
-            IPhone se1 = new IPhone();
-            se1.price = 20000;
-            se1.version = 1;
-            IPhone se2 = se1.DeepCopy();
+            // string.Format() : 지정된 형식에 따라 개체의 값을 문자열로 변환하여 다른 문자열에 삽입하는 메소드.
+            // {첨자, 맞춤 : 서식 문자열}
 
-            se2.version = 2;
-            se2.price = 100000;
+            //string data = string.Format("{0}, {1}, {2}", 10, 5.59, 'A');
+            //Console.WriteLine(data);
 
-            Console.WriteLine("se1의 버젼: " + se1.version);
-            Console.WriteLine("se1의 가격: " + se1.price);
+            //문자열 보간
+            //int damage = 10;
+            //int critical = 33;
 
-            Console.WriteLine("se2의 버젼: " + se2.version);
-            Console.WriteLine("se2의 가격: " + se2.price);
+            //Console.WriteLine($"{damage}+{critical}={damage+critical}");
 
+            //콜백함수 : 다른 함수의 인수로 넘겨진 후 특정 이벤트에 의해 호출되는 함수. 시스템에 의해 호출 시점이 결정됨.
+            Button(UserInterface);
 
-            // 깊은복사 : 객체를 복사할 때 참조값이 아닌, 인스턴스 자체를 새로 복사해 서로 다른 메모리를 생성하는 복사.
         }
     }
+    
 }
 
