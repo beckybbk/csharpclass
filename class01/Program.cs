@@ -2,90 +2,91 @@
 
 namespace class01
 {
-    // 추상클래스 선언 : abstract를 붙임. 
-    abstract class Equipment
+    class Machine
     {
-        abstract public void Effect(); //가상함수로 암묵적 정의 된 것. 
+        // 형식 매개변수 : 함수에 형식을 지정하지 않아도 호출 시 형식만 지정하면 어떤 형식이든 사용할 수 있는 매개변수. 
 
-        public void Durability(int value)
+        // T 대신 다른 문자도 상관없음. 보통은 T를 많이 씀. 
+        public void Driving<T>(T x)
         {
-            Console.WriteLine("내구도 : " + value);
-
+            Console.WriteLine($"x의 값 : {x} ");  // 문자열보간
+        }
+        public T Process<T>(T x)
+        {
+            return x;
         }
     }
 
-        class Weapon : Equipment
-        {
-            public override void Effect()
-            {
-                Console.WriteLine("공격력 증가");
-            }
-
-            new public void Durability(int value)
-            {
-                Console.WriteLine("무기 내구도 : " + value);
-
-            }
-        }
-
-        class Shield : Equipment
-        {
-            public override void Effect()
-            {
-                Console.WriteLine("방어력 증가");
-            }
-        }
-
-    delegate void CallBack();
-   internal class Program
+    class STL<T> where T : class
     {
-       static void Button(CallBack callback)
+        public void Push<T>(T x)
         {
-            callback();
+            Console.WriteLine("Push :" +x);
         }
 
-        static void UserInterface()
+        public T Pop<T>(T x)
         {
-            Console.WriteLine("Character stat Window");
+            return x;
         }
-       static void Main(string[] args)
-       {
-            #region 추상 클래스 : 하나 이상의 추상 메소드를 포함하고 있는 클래스. 
+    }
+
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            #region 일반화 프로그래밍
             /*
-            Weapon weapon = new Weapon();
-            weapon.Durability(100);
-            weapon.Effect();
+            // 일반화 프로그래밍 : 데이터 형식에 의존하지 않고 (=자료형) 하나의 값이 여러 다른 데이터 타입들을 가질 수 있는 기술에 중점을 둬 재사용성을 높일 수 있는 프로그래밍 방법.
 
-            // 추상 클래스는 다중 상속이 안됨. (인터페이스는 되는데) 
-            Shield shield = new Shield();
-            shield.Effect();
+            Machine machine = new Machine();
+
+            machine.Driving(10);
+            machine.Driving(5.834);
+            machine.Driving('W');
+            machine.Driving("string");
+
+            // 형식 매개변수는 컴파일할때 자료형을 결정함. 
+            int num1 = machine.Process(300);
+            float num2 = machine.Process(6.771f);
+            char num3 = machine.Process('Y');
+            string num4 = machine.Process("FIFA");
+
+            // 형식매개변수의 경우 Boxing, Unboxing이 일어나지 않음. (속도가 빠름) 
+            machine.Driving(num1);
+            machine.Driving(num2);
+            machine.Driving(num3);
+            machine.Driving(num4);
+
+            class형태의 일반화 프로그래밍
+
+            STL<int> stack = new STL<int>();
+            stack.Push(1);
+            stack.Push(2);
+            stack.Push(3);
+
+            stack.Pop(1);
+            stack.Pop(2);
+            stack.Pop(3);
             */
+
             #endregion
 
-            //console 입력 
-            //string name;
+            // 형식범위제한 : 형식 매개변수를 특정 형식으로 제한할 때 사용하는 키워드.
 
-            //name = Console.ReadLine();
+            //STL<int> queue = new STL<int>();
+            //queue.Push(1);
 
-            //Console.WriteLine("name : " + name);
+            STL<string> str = new STL<string>();
+            str.Push("League of Legend");
 
-            // string.Format() : 지정된 형식에 따라 개체의 값을 문자열로 변환하여 다른 문자열에 삽입하는 메소드.
-            // {첨자, 맞춤 : 서식 문자열}
+            //struct : 값 형식의 데이터만 가능.
+            //class : 참조 형식의 데이터만 가능.
+            //new() : 매개변수가 없는 생성자가 반드시 존재해야 가능.
+            //상위클래스(이름) : 해당 상위클래스의 파생(상속된) 클래스만 가능.
+            //interface(이름) : 해당 인터페이스를 구현한 클래스여야 가능. 
 
-            //string data = string.Format("{0}, {1}, {2}", 10, 5.59, 'A');
-            //Console.WriteLine(data);
-
-            //문자열 보간
-            //int damage = 10;
-            //int critical = 33;
-
-            //Console.WriteLine($"{damage}+{critical}={damage+critical}");
-
-            //콜백함수 : 다른 함수의 인수로 넘겨진 후 특정 이벤트에 의해 호출되는 함수. 시스템에 의해 호출 시점이 결정됨.
-            Button(UserInterface);
 
         }
-    }
-    
+    }  
 }
 
