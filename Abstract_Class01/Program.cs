@@ -4,40 +4,40 @@ namespace Abstract_Class01
 {
 
     // 추상클래스 선언 : abstract를 붙임. 
-abstract class Equipment
-{
-    abstract public void Effect(); //가상함수로 암묵적 정의 된 것. 
-
-    public void Durability(int value)
+    abstract class Equipment
     {
-        Console.WriteLine("내구도 : " + value);
+        abstract public void Effect(); //가상함수로 암묵적 정의 된 것. 
 
-    }
-}
+        public void Durability(int value)
+        {
+            Console.WriteLine("내구도 : " + value);
 
-class Weapon : Equipment
-{
-    public override void Effect()
-    {
-        Console.WriteLine("공격력 증가");
+        }
     }
 
-    new public void Durability(int value)
+    class Weapon : Equipment
     {
-        Console.WriteLine("무기 내구도 : " + value);
+        public override void Effect()
+        {
+            Console.WriteLine("공격력 증가");
+        }
 
+        new public void Durability(int value)
+        {
+            Console.WriteLine("무기 내구도 : " + value);
+
+        }
     }
-}
 
-class Shield : Equipment
-{
-    public override void Effect()
+    class Shield : Equipment
     {
-        Console.WriteLine("방어력 증가");
+        public override void Effect()
+        {
+            Console.WriteLine("방어력 증가");
+        }
     }
-}
 
-delegate void CallBack();
+    delegate void CallBack();
     internal class Program
     {
         static void Button(CallBack callback)
@@ -87,3 +87,4 @@ delegate void CallBack();
 
         }
     }
+}

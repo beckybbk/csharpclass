@@ -35,7 +35,12 @@
       "ProjectGuid": "5b96a3cb-5524-4c93-be80-95613245bf3b",
       "DisplayName": "Anonymous01",
       "ColorIndex": 6
+    },
+    "cb9da3a2-80a8-48bb-bb97-fa81ab01bcf5": {
+      "ProjectGuid": "cb9da3a2-80a8-48bb-bb97-fa81ab01bcf5",
+      "DisplayName": "Abstract_Class01",
+      "ColorIndex": 7
     }
   },
-  "NextColorIndex": 7
+  "NextColorIndex": 8
 }
