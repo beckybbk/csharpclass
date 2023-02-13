@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "c0UrEYJcWwLdyCUC47VcaGDR+i2nt/MYHDwBs8BIKgLQrBqk8rrmsjTJ9M7nKzY0ZV/JqWv2eHUiBXmbO9+OaQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Administrator\\Documents\\csharpclass\\onsi\\onsi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}

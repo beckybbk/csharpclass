@@ -5,7 +5,12 @@
       "ProjectGuid": "286e2c74-1544-41fe-8046-e8cf9b2ce0ff",
       "DisplayName": "lectureResources",
       "ColorIndex": 0
+    },
+    "73b4e7e6-7641-48b6-907f-051d68468e2f": {
+      "ProjectGuid": "73b4e7e6-7641-48b6-907f-051d68468e2f",
+      "DisplayName": "NameSpace",
+      "ColorIndex": 1
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 2
 }
