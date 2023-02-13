@@ -1,0 +1,15 @@
+C:\Users\Administrator\Desktop\새 폴더 (2)\construct01\bin\Debug\net6.0\construct01.exe
+C:\Users\Administrator\Desktop\새 폴더 (2)\construct01\bin\Debug\net6.0\construct01.deps.json
+C:\Users\Administrator\Desktop\새 폴더 (2)\construct01\bin\Debug\net6.0\construct01.runtimeconfig.json
+C:\Users\Administrator\Desktop\새 폴더 (2)\construct01\bin\Debug\net6.0\construct01.dll
+C:\Users\Administrator\Desktop\새 폴더 (2)\construct01\bin\Debug\net6.0\ref\construct01.dll
+C:\Users\Administrator\Desktop\새 폴더 (2)\construct01\bin\Debug\net6.0\construct01.pdb
+C:\Users\Administrator\Desktop\새 폴더 (2)\construct01\obj\Debug\net6.0\construct01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\새 폴더 (2)\construct01\obj\Debug\net6.0\construct01.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\새 폴더 (2)\construct01\obj\Debug\net6.0\construct01.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\새 폴더 (2)\construct01\obj\Debug\net6.0\construct01.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\새 폴더 (2)\construct01\obj\Debug\net6.0\construct01.dll
+C:\Users\Administrator\Desktop\새 폴더 (2)\construct01\obj\Debug\net6.0\ref\construct01.dll
+C:\Users\Administrator\Desktop\새 폴더 (2)\construct01\obj\Debug\net6.0\construct01.pdb
+C:\Users\Administrator\Desktop\새 폴더 (2)\construct01\obj\Debug\net6.0\construct01.genruntimeconfig.cache
+C:\Users\Administrator\Desktop\새 폴더 (2)\construct01\obj\Debug\net6.0\construct01.csproj.AssemblyReference.cache

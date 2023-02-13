@@ -1,35 +1,41 @@
 ﻿using System;
+using System.Collections;           
+using System.Collections.Generic;
 
 namespace class01
 {
-    internal class Program
+
+    internal class NPC
     {
-        static void Main(string[] args) // Main 은 프로그램 실행 진입점, main 함수 안에서 실행해야 프로그램이 돌아감 
+        //delegate void CallBack(); // 델리게이트 선언
+        static void Main(string[] args)
         {
-            //값 타입: 변수 선언과 동시에 값 할당할 수 있고 스택 메모리에 생성됨. 
+            #region 분할클래스 
+            /*
+            // 분할클래스 : 클래스 구현이 길어질 경우 2개 이상의 소스 파일로 분할하여 동시에 작업을 수행하거나 관리의 편의를 위해 분할하는 클래스. 
 
-            //참조 타입
-            //int 자료형을 가진 변수를 한공간에 방 형태로 5개 저장하는 구조. 
-            //new 키워드 사용해서 객체 초기화 한 후 힙에 할당된 메모리를 스택에서 참조해 사용하는 타입. 
+            NPC01 npc = new NPC01();
+            npc.health = 100;
+            npc.Dialogue();
+            */
+            #endregion
 
-            // int array[5];  => 에러
-            string name = "BBK";
-            int[] array = new int[5];
 
-            array[0] = 10;
-            array[1] = 20;
-            array[2] = 30;
-            array[3] = 40;
-            array[4] = 50;
+            //CallBack callback = () => Console.WriteLine("안녕"); // 람다식 무명메소드 
+            //callback();
 
-            Console.WriteLine(name);
-            Console.WriteLine(array[0]);
-            Console.WriteLine(array[1]);
-            Console.WriteLine(array[2]);
-            Console.WriteLine(array[3]);
-            Console.WriteLine(array[4]);
+            // action : 반환형 메소드가 없는 메소드를 저장할 수 있는 delegate (고급문법), 매개변수를 최대 16개까지 지정할 수 있다.
+            //Action<int> action = (int a) => Console.WriteLine("Action 입니다");
+            //action(10);
 
+            //// Func : 반환형이 존재하는 메소드를 저장할 수 있는 delegate (고급문법), Func<매개변수, 반환형>
+
+            //Func<int, int> func = (int a) => 10;
+            //Console.WriteLine("Func의 값: " + func(10));
+            
 
         }
+
     }
 }
+
