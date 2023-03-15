@@ -1,0 +1,15 @@
+C:\Users\Administrator\Documents\csharpclass\Unboxing\Unboxing\bin\Debug\net6.0\Unboxing.exe
+C:\Users\Administrator\Documents\csharpclass\Unboxing\Unboxing\bin\Debug\net6.0\Unboxing.deps.json
+C:\Users\Administrator\Documents\csharpclass\Unboxing\Unboxing\bin\Debug\net6.0\Unboxing.runtimeconfig.json
+C:\Users\Administrator\Documents\csharpclass\Unboxing\Unboxing\bin\Debug\net6.0\Unboxing.dll
+C:\Users\Administrator\Documents\csharpclass\Unboxing\Unboxing\bin\Debug\net6.0\Unboxing.pdb
+C:\Users\Administrator\Documents\csharpclass\Unboxing\Unboxing\obj\Debug\net6.0\Unboxing.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\csharpclass\Unboxing\Unboxing\obj\Debug\net6.0\Unboxing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Documents\csharpclass\Unboxing\Unboxing\obj\Debug\net6.0\Unboxing.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\csharpclass\Unboxing\Unboxing\obj\Debug\net6.0\Unboxing.AssemblyInfo.cs
+C:\Users\Administrator\Documents\csharpclass\Unboxing\Unboxing\obj\Debug\net6.0\Unboxing.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\csharpclass\Unboxing\Unboxing\obj\Debug\net6.0\Unboxing.dll
+C:\Users\Administrator\Documents\csharpclass\Unboxing\Unboxing\obj\Debug\net6.0\refint\Unboxing.dll
+C:\Users\Administrator\Documents\csharpclass\Unboxing\Unboxing\obj\Debug\net6.0\Unboxing.pdb
+C:\Users\Administrator\Documents\csharpclass\Unboxing\Unboxing\obj\Debug\net6.0\Unboxing.genruntimeconfig.cache
+C:\Users\Administrator\Documents\csharpclass\Unboxing\Unboxing\obj\Debug\net6.0\ref\Unboxing.dll
