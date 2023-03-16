@@ -1,0 +1,15 @@
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Class0316\bin\Debug\net6.0\Class0316.exe
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Class0316\bin\Debug\net6.0\Class0316.deps.json
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Class0316\bin\Debug\net6.0\Class0316.runtimeconfig.json
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Class0316\bin\Debug\net6.0\Class0316.dll
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Class0316\bin\Debug\net6.0\Class0316.pdb
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Class0316\obj\Debug\net6.0\Class0316.csproj.AssemblyReference.cache
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Class0316\obj\Debug\net6.0\Class0316.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Class0316\obj\Debug\net6.0\Class0316.AssemblyInfoInputs.cache
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Class0316\obj\Debug\net6.0\Class0316.AssemblyInfo.cs
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Class0316\obj\Debug\net6.0\Class0316.csproj.CoreCompileInputs.cache
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Class0316\obj\Debug\net6.0\Class0316.dll
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Class0316\obj\Debug\net6.0\refint\Class0316.dll
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Class0316\obj\Debug\net6.0\Class0316.pdb
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Class0316\obj\Debug\net6.0\Class0316.genruntimeconfig.cache
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Class0316\obj\Debug\net6.0\ref\Class0316.dll

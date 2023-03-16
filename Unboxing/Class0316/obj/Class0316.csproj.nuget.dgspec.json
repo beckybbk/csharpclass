@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\BK\\Documents\\GitHub\\csharpclass\\Unboxing\\Unboxing\\Unboxing.csproj": {}
+    "C:\\Users\\BK\\Documents\\GitHub\\csharpclass\\Unboxing\\Class0316\\Class0316.csproj": {}
   },
   "projects": {
-    "C:\\Users\\BK\\Documents\\GitHub\\csharpclass\\Unboxing\\Unboxing\\Unboxing.csproj": {
+    "C:\\Users\\BK\\Documents\\GitHub\\csharpclass\\Unboxing\\Class0316\\Class0316.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\BK\\Documents\\GitHub\\csharpclass\\Unboxing\\Unboxing\\Unboxing.csproj",
-        "projectName": "Unboxing",
-        "projectPath": "C:\\Users\\BK\\Documents\\GitHub\\csharpclass\\Unboxing\\Unboxing\\Unboxing.csproj",
+        "projectUniqueName": "C:\\Users\\BK\\Documents\\GitHub\\csharpclass\\Unboxing\\Class0316\\Class0316.csproj",
+        "projectName": "Class0316",
+        "projectPath": "C:\\Users\\BK\\Documents\\GitHub\\csharpclass\\Unboxing\\Class0316\\Class0316.csproj",
         "packagesPath": "C:\\Users\\BK\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BK\\Documents\\GitHub\\csharpclass\\Unboxing\\Unboxing\\obj\\",
+        "outputPath": "C:\\Users\\BK\\Documents\\GitHub\\csharpclass\\Unboxing\\Class0316\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\BK\\AppData\\Roaming\\NuGet\\NuGet.Config",

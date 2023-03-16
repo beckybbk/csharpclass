@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unboxing", "Unboxing\Unboxing.csproj", "{995A362A-1DFD-4C3E-8F56-608E0BB80547}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unboxing", "Unboxing\Unboxing.csproj", "{995A362A-1DFD-4C3E-8F56-608E0BB80547}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class0316", "Class0316\Class0316.csproj", "{29222CC8-A959-4413-B74E-2B267606015C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{995A362A-1DFD-4C3E-8F56-608E0BB80547}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{995A362A-1DFD-4C3E-8F56-608E0BB80547}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{995A362A-1DFD-4C3E-8F56-608E0BB80547}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29222CC8-A959-4413-B74E-2B267606015C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29222CC8-A959-4413-B74E-2B267606015C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29222CC8-A959-4413-B74E-2B267606015C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29222CC8-A959-4413-B74E-2B267606015C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

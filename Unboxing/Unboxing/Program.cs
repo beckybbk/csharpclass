@@ -53,7 +53,8 @@ namespace Unboxing
 
             //입력
             string input = Console.ReadLine();
-            Console.WriteLine(input);   
+            int index = int.Parse(Console.ReadLine());
+            Console.WriteLine(input[index-1]);   
 
 
         }
