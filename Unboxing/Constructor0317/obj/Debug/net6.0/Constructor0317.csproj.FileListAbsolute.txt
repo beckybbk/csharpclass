@@ -1,0 +1,15 @@
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Constructor0317\bin\Debug\net6.0\Constructor0317.exe
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Constructor0317\bin\Debug\net6.0\Constructor0317.deps.json
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Constructor0317\bin\Debug\net6.0\Constructor0317.runtimeconfig.json
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Constructor0317\bin\Debug\net6.0\Constructor0317.dll
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Constructor0317\bin\Debug\net6.0\Constructor0317.pdb
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Constructor0317\obj\Debug\net6.0\Constructor0317.csproj.AssemblyReference.cache
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Constructor0317\obj\Debug\net6.0\Constructor0317.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Constructor0317\obj\Debug\net6.0\Constructor0317.AssemblyInfoInputs.cache
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Constructor0317\obj\Debug\net6.0\Constructor0317.AssemblyInfo.cs
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Constructor0317\obj\Debug\net6.0\Constructor0317.csproj.CoreCompileInputs.cache
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Constructor0317\obj\Debug\net6.0\Constructor0317.dll
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Constructor0317\obj\Debug\net6.0\refint\Constructor0317.dll
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Constructor0317\obj\Debug\net6.0\Constructor0317.pdb
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Constructor0317\obj\Debug\net6.0\Constructor0317.genruntimeconfig.cache
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Constructor0317\obj\Debug\net6.0\ref\Constructor0317.dll
