@@ -1,0 +1,15 @@
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Parameter0320\bin\Debug\net6.0\Parameter0320.exe
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Parameter0320\bin\Debug\net6.0\Parameter0320.deps.json
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Parameter0320\bin\Debug\net6.0\Parameter0320.runtimeconfig.json
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Parameter0320\bin\Debug\net6.0\Parameter0320.dll
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Parameter0320\bin\Debug\net6.0\Parameter0320.pdb
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Parameter0320\obj\Debug\net6.0\Parameter0320.csproj.AssemblyReference.cache
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Parameter0320\obj\Debug\net6.0\Parameter0320.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Parameter0320\obj\Debug\net6.0\Parameter0320.AssemblyInfoInputs.cache
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Parameter0320\obj\Debug\net6.0\Parameter0320.AssemblyInfo.cs
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Parameter0320\obj\Debug\net6.0\Parameter0320.csproj.CoreCompileInputs.cache
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Parameter0320\obj\Debug\net6.0\Parameter0320.dll
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Parameter0320\obj\Debug\net6.0\refint\Parameter0320.dll
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Parameter0320\obj\Debug\net6.0\Parameter0320.pdb
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Parameter0320\obj\Debug\net6.0\Parameter0320.genruntimeconfig.cache
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Parameter0320\obj\Debug\net6.0\ref\Parameter0320.dll
