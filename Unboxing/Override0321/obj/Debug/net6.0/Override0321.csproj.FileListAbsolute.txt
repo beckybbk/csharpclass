@@ -1,0 +1,15 @@
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Override0321\obj\Debug\net6.0\Override0321.csproj.AssemblyReference.cache
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Override0321\obj\Debug\net6.0\Override0321.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Override0321\obj\Debug\net6.0\Override0321.AssemblyInfoInputs.cache
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Override0321\obj\Debug\net6.0\Override0321.AssemblyInfo.cs
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Override0321\obj\Debug\net6.0\Override0321.csproj.CoreCompileInputs.cache
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Override0321\bin\Debug\net6.0\Override0321.exe
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Override0321\bin\Debug\net6.0\Override0321.deps.json
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Override0321\bin\Debug\net6.0\Override0321.runtimeconfig.json
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Override0321\bin\Debug\net6.0\Override0321.dll
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Override0321\bin\Debug\net6.0\Override0321.pdb
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Override0321\obj\Debug\net6.0\Override0321.dll
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Override0321\obj\Debug\net6.0\refint\Override0321.dll
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Override0321\obj\Debug\net6.0\Override0321.pdb
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Override0321\obj\Debug\net6.0\Override0321.genruntimeconfig.cache
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Override0321\obj\Debug\net6.0\ref\Override0321.dll
