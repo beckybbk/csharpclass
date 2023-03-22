@@ -1,0 +1,15 @@
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Casting0322\bin\Debug\net6.0\Casting0322.exe
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Casting0322\bin\Debug\net6.0\Casting0322.deps.json
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Casting0322\bin\Debug\net6.0\Casting0322.runtimeconfig.json
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Casting0322\bin\Debug\net6.0\Casting0322.dll
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Casting0322\bin\Debug\net6.0\Casting0322.pdb
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Casting0322\obj\Debug\net6.0\Casting0322.csproj.AssemblyReference.cache
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Casting0322\obj\Debug\net6.0\Casting0322.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Casting0322\obj\Debug\net6.0\Casting0322.AssemblyInfoInputs.cache
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Casting0322\obj\Debug\net6.0\Casting0322.AssemblyInfo.cs
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Casting0322\obj\Debug\net6.0\Casting0322.csproj.CoreCompileInputs.cache
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Casting0322\obj\Debug\net6.0\Casting0322.dll
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Casting0322\obj\Debug\net6.0\refint\Casting0322.dll
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Casting0322\obj\Debug\net6.0\Casting0322.pdb
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Casting0322\obj\Debug\net6.0\Casting0322.genruntimeconfig.cache
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Casting0322\obj\Debug\net6.0\ref\Casting0322.dll

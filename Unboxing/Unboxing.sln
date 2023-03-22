@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Constructor0317", "Construc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Parameter0320", "Parameter0320\Parameter0320.csproj", "{DDCFE138-44C2-4772-90D7-F3C176C7C73F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Override0321", "Override0321\Override0321.csproj", "{64481E19-9DCB-4C87-911C-474820288011}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Override0321", "Override0321\Override0321.csproj", "{64481E19-9DCB-4C87-911C-474820288011}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Casting0322", "Casting0322\Casting0322.csproj", "{26D2DD63-7E2D-4DC3-9CEF-422383631FCC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{64481E19-9DCB-4C87-911C-474820288011}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64481E19-9DCB-4C87-911C-474820288011}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64481E19-9DCB-4C87-911C-474820288011}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26D2DD63-7E2D-4DC3-9CEF-422383631FCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26D2DD63-7E2D-4DC3-9CEF-422383631FCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26D2DD63-7E2D-4DC3-9CEF-422383631FCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26D2DD63-7E2D-4DC3-9CEF-422383631FCC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
