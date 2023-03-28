@@ -1,0 +1,15 @@
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Anonymous0328\bin\Debug\net6.0\Anonymous0328.exe
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Anonymous0328\bin\Debug\net6.0\Anonymous0328.deps.json
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Anonymous0328\bin\Debug\net6.0\Anonymous0328.runtimeconfig.json
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Anonymous0328\bin\Debug\net6.0\Anonymous0328.dll
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Anonymous0328\bin\Debug\net6.0\Anonymous0328.pdb
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Anonymous0328\obj\Debug\net6.0\Anonymous0328.csproj.AssemblyReference.cache
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Anonymous0328\obj\Debug\net6.0\Anonymous0328.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Anonymous0328\obj\Debug\net6.0\Anonymous0328.AssemblyInfoInputs.cache
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Anonymous0328\obj\Debug\net6.0\Anonymous0328.AssemblyInfo.cs
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Anonymous0328\obj\Debug\net6.0\Anonymous0328.csproj.CoreCompileInputs.cache
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Anonymous0328\obj\Debug\net6.0\Anonymous0328.dll
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Anonymous0328\obj\Debug\net6.0\refint\Anonymous0328.dll
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Anonymous0328\obj\Debug\net6.0\Anonymous0328.pdb
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Anonymous0328\obj\Debug\net6.0\Anonymous0328.genruntimeconfig.cache
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Anonymous0328\obj\Debug\net6.0\ref\Anonymous0328.dll
