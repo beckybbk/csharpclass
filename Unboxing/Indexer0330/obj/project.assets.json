@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\BK\\Documents\\GitHub\\csharpclass\\Unboxing\\Indexer0329\\Collection0329.csproj",
-      "projectName": "Collection0329",
-      "projectPath": "C:\\Users\\BK\\Documents\\GitHub\\csharpclass\\Unboxing\\Indexer0329\\Collection0329.csproj",
+      "projectUniqueName": "C:\\Users\\BK\\Documents\\GitHub\\csharpclass\\Unboxing\\Indexer0330\\Indexer0330.csproj",
+      "projectName": "Indexer0330",
+      "projectPath": "C:\\Users\\BK\\Documents\\GitHub\\csharpclass\\Unboxing\\Indexer0330\\Indexer0330.csproj",
       "packagesPath": "C:\\Users\\BK\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\BK\\Documents\\GitHub\\csharpclass\\Unboxing\\Indexer0329\\obj\\",
+      "outputPath": "C:\\Users\\BK\\Documents\\GitHub\\csharpclass\\Unboxing\\Indexer0330\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\BK\\AppData\\Roaming\\NuGet\\NuGet.Config",

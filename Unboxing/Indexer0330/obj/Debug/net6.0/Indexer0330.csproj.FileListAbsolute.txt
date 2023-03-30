@@ -1,0 +1,15 @@
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Indexer0330\bin\Debug\net6.0\Indexer0330.exe
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Indexer0330\bin\Debug\net6.0\Indexer0330.deps.json
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Indexer0330\bin\Debug\net6.0\Indexer0330.runtimeconfig.json
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Indexer0330\bin\Debug\net6.0\Indexer0330.dll
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Indexer0330\bin\Debug\net6.0\Indexer0330.pdb
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Indexer0330\obj\Debug\net6.0\Indexer0330.csproj.AssemblyReference.cache
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Indexer0330\obj\Debug\net6.0\Indexer0330.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Indexer0330\obj\Debug\net6.0\Indexer0330.AssemblyInfoInputs.cache
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Indexer0330\obj\Debug\net6.0\Indexer0330.AssemblyInfo.cs
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Indexer0330\obj\Debug\net6.0\Indexer0330.csproj.CoreCompileInputs.cache
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Indexer0330\obj\Debug\net6.0\Indexer0330.dll
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Indexer0330\obj\Debug\net6.0\refint\Indexer0330.dll
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Indexer0330\obj\Debug\net6.0\Indexer0330.pdb
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Indexer0330\obj\Debug\net6.0\Indexer0330.genruntimeconfig.cache
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Indexer0330\obj\Debug\net6.0\ref\Indexer0330.dll

@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 
-namespace Indexer0329
+namespace Collection0329
 {
     internal class Program
     {
@@ -47,22 +47,22 @@ namespace Indexer0329
 
             #region 콜렉션 일반화 (List)
 
-            List<float> list= new List<float>();
-            list.Add(10.9f);
-            list.Add(20.7f);
-            list.Add(30.0f);
-            list.Add(40.0f);
+            //List<float> list= new List<float>();
+            //list.Add(10.9f);
+            //list.Add(20.7f);
+            //list.Add(30.0f);
+            //list.Add(40.0f);
 
-            for(int i=0; i<list.Count; i++) 
-            {
-                Console.WriteLine(list[i]); 
-            }
+            //for(int i=0; i<list.Count; i++) 
+            //{
+            //    Console.WriteLine(list[i]); 
+            //}
 
-            list.Remove(list[0]);     // 데이터 삭제함수
-            Console.WriteLine(list[0]);
+            //list.Remove(list[0]);     // 데이터 삭제함수
+            //Console.WriteLine(list[0]);
 
-            list.Insert(2,63.825f);   //특정 인덱스에 데이터 추가하는 함수.
-            Console.WriteLine(list[2]);
+            //list.Insert(2,63.825f);   //특정 인덱스에 데이터 추가하는 함수.
+            //Console.WriteLine(list[2]);
 
 
 
