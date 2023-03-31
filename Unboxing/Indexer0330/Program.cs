@@ -94,13 +94,13 @@ namespace Indexer0330
 
             #region 인덱서
             //클래스의 멤버로 클래스의 값을 배열처럼 접근할 수 있도록 설정하는 문법.
-            Car car= new Car(10);
-            car[0] = "BMW";
-            Console.WriteLine("car의 이름 : " + car[0]);
-
-            car[1] = "Jaguar";
-            Console.WriteLine("car의 이름 : " + car[1]);
-            Console.WriteLine("car의 이름 : " + car[0]); // Jaguar 가 출력됨... 최종값으로 반환되기 때문. index 넣어줘야 댐.
+            //ar car= new Car(10);
+            //ar[0] = "BMW";
+            //onsole.WriteLine("car의 이름 : " + car[0]);
+            //
+            //ar[1] = "Jaguar";
+            //onsole.WriteLine("car의 이름 : " + car[1]);
+            //onsole.WriteLine("car의 이름 : " + car[0]); // Jaguar 가 출력됨... 최종값으로 반환되기 때문. index 넣어줘야 댐.
 
 
 
