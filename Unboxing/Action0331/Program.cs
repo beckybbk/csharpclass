@@ -67,7 +67,7 @@ namespace Action0331
         {
             return value;
         }
-
+   
        
 
         static void Main(string[] args)
@@ -111,9 +111,9 @@ namespace Action0331
 
             #region 제약조건(where)
 
-            Language<int> language = new Language<int>();
-            language.Data = 100;
-            Console.WriteLine(language.Data);
+            //Language<int> language = new Language<int>();
+            //language.Data = 100;
+            //Console.WriteLine(language.Data);
 
             //Language<DataTable> language1 = new Language<DataTable>(); //unmanaged 는 struct 안에 참조타입을 포함하지 않음.
 

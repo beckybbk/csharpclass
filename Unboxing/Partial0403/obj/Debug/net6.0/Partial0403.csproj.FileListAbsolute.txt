@@ -1,0 +1,15 @@
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Partial0403\bin\Debug\net6.0\Partial0403.exe
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Partial0403\bin\Debug\net6.0\Partial0403.deps.json
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Partial0403\bin\Debug\net6.0\Partial0403.runtimeconfig.json
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Partial0403\bin\Debug\net6.0\Partial0403.dll
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Partial0403\bin\Debug\net6.0\Partial0403.pdb
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Partial0403\obj\Debug\net6.0\Partial0403.csproj.AssemblyReference.cache
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Partial0403\obj\Debug\net6.0\Partial0403.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Partial0403\obj\Debug\net6.0\Partial0403.AssemblyInfoInputs.cache
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Partial0403\obj\Debug\net6.0\Partial0403.AssemblyInfo.cs
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Partial0403\obj\Debug\net6.0\Partial0403.csproj.CoreCompileInputs.cache
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Partial0403\obj\Debug\net6.0\Partial0403.dll
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Partial0403\obj\Debug\net6.0\refint\Partial0403.dll
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Partial0403\obj\Debug\net6.0\Partial0403.pdb
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Partial0403\obj\Debug\net6.0\Partial0403.genruntimeconfig.cache
+C:\Users\BK\Documents\GitHub\csharpclass\Unboxing\Partial0403\obj\Debug\net6.0\ref\Partial0403.dll
